@@ -100,3 +100,42 @@ nav .menu a{
     /* to remove the bottom gap of the image */
     vertical-align: middle;
 }
+
+#about{
+    padding-top: 130px;
+}
+#about .about-container{
+   width: 71%;
+   max-width: 1140px;
+   margin: 0% auto; 
+   background-color: #fff8f3;
+   text-align: center;
+   padding: 130px 156px 132px 157px;
+}
+
+#about .about-container .section-heading{
+    max-width: 827px;
+     text-align: center;
+     margin: 0% auto;
+}
+
+   .section-heading h2{ 
+   margin-bottom: 30px;
+   color: #181818;
+   font-size: 35px;
+   font-weight: bold;
+   }
+
+   .section-heading p{
+    margin-bottom: 30px;
+   color: #181818;
+   font-size: 18px;
+   line-height: 30px;
+   }
+   #about .about-container .about-info {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-card p{
+   font-size: 20px;
+}
