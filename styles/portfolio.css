@@ -15,7 +15,7 @@ header{
    padding-top: 50px;
    /* to add background pictures */
    background: url(../images/developer.png), url(../images/header_bg.png) #fff8f3;
-   background-position: top left, bottom right;
+   background-position: 23px 38px, bottom right;
    background-repeat: no-repeat;
 }
 nav{
@@ -58,6 +58,10 @@ nav .menu a{
     font-weight: bold;
     cursor: pointer;
     
+}
+
+.text-center{
+    text-align: center;
 }
 
 #banner{
@@ -216,4 +220,55 @@ nav .menu a{
     line-height: 28px;
     color: #757575;
 }
+
+footer{
+    margin-top: 130px;
+    padding: 130px 0;
+    background-color: #fff8f3;
+}
+
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+}
+
+.footer-container .socials{
+    max-width: 562px; 
+}
+.footer-container h2{
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer-container .icons a{
+    margin-right: 24px;
+
+}
+.footer-container .form input[type="text"],
+.footer-container .form input[type="email"], 
+.footer-container .form textarea
+{
+width: 481px;
+padding: 18px 31px;
+margin-bottom: 24px;
+border: none;
+border-radius: 5px;
+color: #757575;
+}
+
+.form .textarea{
+    font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+
     
